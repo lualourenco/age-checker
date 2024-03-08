@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Age Checker</h1>
+    </header>
+    <section>
+        <div>
+          <p>Date of Birth:
+            <input type="date" name="dob" id="dob">
+          </p>
+          <p>Gender:
+            <input type="radio" name="radgen" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="radgen" id="female">
+            <label for="female">Female</label>
+          </p>
+          <p>
+            <input type="button" value="Check" onclick="check()">
+          </p>
+        </div>
+        <div id="res">
+          Fill in the information above to see the result
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Luana King</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
