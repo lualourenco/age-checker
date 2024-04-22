@@ -1,2 +1,3 @@
 # age-checker
- A calculator that shows you what is your age according to your date of birth and your gender.
+**A JavaScript age checker**
+The usuer will add their __date of birth__ and __gender__, the website will show your age and if you're a man or a woman. 
